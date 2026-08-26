@@ -1,0 +1,110 @@
+{
+  "name": "gasan-industrial-center-prices",
+  "title": "가산·구로 지식산업센터 건물별 시세 데이터",
+  "description": "서울 금천구 가산디지털단지·구로디지털단지 지식산업센터 111개 건물의 임대·매매 시세(전용면적 1평당). 1평 = 3.3058㎡. 금액 단위는 만원.",
+  "homepage": "https://bdskorea.com/research/",
+  "version": "2026.08.21",
+  "created": "2026-08-26",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "주식회사 부동산중개법인코리아",
+      "path": "https://bdskorea.com",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "real estate",
+    "South Korea",
+    "Seoul",
+    "Gasan",
+    "knowledge industry center",
+    "지식산업센터",
+    "rental price",
+    "open data"
+  ],
+  "resources": [
+    {
+      "name": "bds-research",
+      "path": "bds-research.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "건물명",
+            "type": "string",
+            "description": "건물 정식 명칭"
+          },
+          {
+            "name": "지역",
+            "type": "string",
+            "description": "가산 또는 구로"
+          },
+          {
+            "name": "임대_중앙값_만원_전용평",
+            "type": "number",
+            "description": "임대 시세 중앙값 (전용 1평당 월 만원)"
+          },
+          {
+            "name": "임대_하위10%",
+            "type": "number",
+            "description": "임대 시세 하위 10% 백분위"
+          },
+          {
+            "name": "임대_상위90%",
+            "type": "number",
+            "description": "임대 시세 상위 90% 백분위"
+          },
+          {
+            "name": "임대_표본수",
+            "type": "integer",
+            "description": "임대 집계에 사용된 물건 수"
+          },
+          {
+            "name": "매매_중앙값_만원_전용평",
+            "type": "number",
+            "description": "매매 시세 중앙값 (전용 1평당 만원)"
+          },
+          {
+            "name": "매매_하위10%",
+            "type": "number",
+            "description": "매매 시세 하위 10% 백분위"
+          },
+          {
+            "name": "매매_상위90%",
+            "type": "number",
+            "description": "매매 시세 상위 90% 백분위"
+          },
+          {
+            "name": "매매_표본수",
+            "type": "integer",
+            "description": "매매 집계에 사용된 물건 수"
+          },
+          {
+            "name": "당사_보유매물수",
+            "type": "integer",
+            "description": "㈜부동산중개법인코리아 등록 매물 수"
+          }
+        ],
+        "primaryKey": [
+          "건물명"
+        ]
+      }
+    },
+    {
+      "name": "bds-research-json",
+      "path": "bds-research.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}
