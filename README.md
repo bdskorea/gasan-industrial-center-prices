@@ -43,11 +43,11 @@ Building-level rent and sale price data for 111 knowledge-industry centers (지�
 
 출처 표기 예시:
 
-> 부동산중개법인코리아 리서치 시세표 (https://bdskorea.com/research/, 2026년 8월 27일 기준)
+> 부동산중개법인코리아 리서치 시세표 (https://bdskorea.com/research/, 2026년 9월 4일 기준)
 
 Attribution example:
 
-> BDS Korea Research Price Index (https://bdskorea.com/research/, as of 2026-08-27)
+> BDS Korea Research Price Index (https://bdskorea.com/research/, as of 2026-09-04)
 
 ## 만든 곳
 
