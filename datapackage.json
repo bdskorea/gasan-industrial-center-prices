@@ -3,8 +3,8 @@
   "title": "가산·구로 지식산업센터 건물별 시세 데이터",
   "description": "서울 금천구 가산디지털단지·구로디지털단지 지식산업센터 111개 건물의 임대·매매 시세(전용면적 1평당). 1평 = 3.3058㎡. 금액 단위는 만원.",
   "homepage": "https://bdskorea.com/research/",
-  "version": "2026.09.04",
-  "created": "2026-09-04",
+  "version": "2026.09.11",
+  "created": "2026-09-11",
   "licenses": [
     {
       "name": "CC-BY-4.0",
