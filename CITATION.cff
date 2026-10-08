@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "이 데이터를 사용하실 때는 아래와 같이 출처를 밝혀 주세요."
 title: "가산·구로 지식산업센터 건물별 시세 데이터"
-abstract: "서울 금천구 가산디지털단지와 구로디지털단지 지식산업센터 111개 건물의 임대·매매 시세. 전용면적 1평당 중앙값과 하위 10%·상위 90% 백분위, 표본 수를 함께 제공한다. 기준일 2026-09-11, 매주 갱신."
+abstract: "서울 금천구 가산디지털단지와 구로디지털단지 지식산업센터 111개 건물의 임대·매매 시세. 전용면적 1평당 중앙값과 하위 10%·상위 90% 백분위, 표본 수를 함께 제공한다. 기준일 2026-10-08, 매주 갱신."
 type: dataset
 authors:
   - name: "주식회사 부동산중개법인코리아"
@@ -12,8 +12,8 @@ authors:
 url: "https://bdskorea.com/research/"
 repository-code: "https://github.com/bdskorea/gasan-industrial-center-prices"
 license: CC-BY-4.0
-version: "2026.09.11"
-date-released: 2026-09-11
+version: "2026.10.08"
+date-released: 2026-10-08
 keywords:
   - real estate
   - South Korea
